@@ -1,16 +1,19 @@
-<MyGrid>
-    GridLayout:
-        cols: 1
-        size: root.width, root.height
-        
-        GridLayout:
-            cols: 2
+<RectangleFlatButton>:
+    ripple_color: 0, 0, 0, .2
+    background_color: 0, 0, 0, 0
+    color: root.primary_color
 
-            Label:
-                text: "Name: "
+    canvas.before:
+        Color:
+            rgba: root.primary_color
+        Line:
+            width: 1
+            rectangle: (self.x, self.y, self.width, self.height)
 
-            TextInput: 
-                multiline: False
-
-        Button:
-            text: "Submit"
+Screen:
+    canvas:
+        Color:
+            rgba: "0F0F0F"
+        Rectangle:
+            pos: self.pos
+            size: self.size
