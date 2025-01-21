@@ -268,7 +268,7 @@ plt.show()
 
 # %%% Heap Complexity
 
-from data_structures.my_heap import Heap
+from my_heap import Heap
 import matplotlib.pyplot as plt
 import time
 import sys
