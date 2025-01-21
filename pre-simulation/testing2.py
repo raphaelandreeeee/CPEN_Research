@@ -5,8 +5,8 @@ from kivymd.uix.button import MDFlatButton
 from kivymd.uix.list import MDList, TwoLineIconListItem, IconLeftWidget
 from kivy.properties import ObjectProperty
 from kivy.lang import Builder
-from db_handler import DatabaseHandler
-from my_heap import MinHeapQ
+from tapattend.db_handler import DatabaseHandler
+from tapattend.my_heap import MinHeapQ
 
 
 KV = """

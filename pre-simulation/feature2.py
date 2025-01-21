@@ -268,7 +268,7 @@ plt.show()
 
 # %%% Heap Complexity
 
-from my_heap import Heap
+from tapattend.my_heap import Heap
 import matplotlib.pyplot as plt
 import time
 import sys
