@@ -183,20 +183,20 @@ MDNavigationLayout:
                 id: edit_last_name
                 size_hint_x: None
                 width: 900
-                pos_hint: {"center_x": 0.5, "top": 0.8}
+                pos_hint: {"center_x": 0.5, "top": 0.6}
                 hint_text: "Last Name"
             
             MDTextField:
                 id: edit_attendance
                 size_hint_x: None
                 width: 900
-                pos_hint: {"center_x": 0.5, "top": 0.7}
+                pos_hint: {"center_x": 0.5, "top": 0.5}
                 hint_text: "Attendance"
 
             MDRectangleFlatButton:
                 size_hint_x: None
                 width: 300
-                pos_hint: {"center_x": 0.5, "top": 0.6}
+                pos_hint: {"center_x": 0.5, "top": 0.4}
                 text: "Edit Student"
                 on_press:
                     app.edit_student_instance()
